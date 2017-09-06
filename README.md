@@ -22,11 +22,7 @@ List of actions you can do:
 
 ##Installation
 
-Installation is available via `pip`
-
-`$ pip install django-ajax-comments`
-
-or via source on github
+via source on github
 
 ```
 $ git clone https://github.com/trDjango/Comments.git
