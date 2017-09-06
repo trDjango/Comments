@@ -4,7 +4,6 @@ from .views import (
     LikeComment, UnlikeComment, CommentUpdateView)
 
 urlpatterns = [
-    '',
     url(r'^create/$', CommentCreateView.as_view(), name='comment-create'),
     url(
         r'update/(?P<pk>[0-9]+)/$',
