@@ -29,7 +29,7 @@ Installation is available via `pip`
 or via source on github
 
 ```
-$ git clone https://github.com/dreidev/Comments.git
+$ git clone https://github.com/trDjango/Comments.git
 $ cd Comments
 $ python setup.py install
 ```
@@ -49,15 +49,15 @@ INSTALLED_APPS = (
 In your urls.py:
 
 ```python
-urlpatterns = patterns('',
+urlpatterns = [
     ...
     url(r'^comments/', include('comments.urls')),
     ...
-)
+]
 ```
 
 
-##Migrations for Django 1.7 and later
+##Migrations for Django 1.11
 
 Migrate comments:
 ```
