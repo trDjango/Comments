@@ -6,7 +6,7 @@ from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 from django.contrib import admin
 admin.autodiscover()
 
-urlpatterns = patterns(
+urlpatterns = [
     '',
     # Examples:
     # url(r'^$', 'podcast_client.views.home', name='home'),
@@ -19,5 +19,5 @@ urlpatterns = patterns(
     url(r'^admin/', include(admin.site.urls)),
 
     url(r'^comments/', include('comments.urls')),
-)
+]
 urlpatterns += staticfiles_urlpatterns()
